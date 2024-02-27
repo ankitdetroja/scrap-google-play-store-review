@@ -1,5 +1,7 @@
 # scrap-google-play-store-review
 
+```javascript
+
 //Get a class name of the review container from inspect and run this code in the console on Google Play console.
 
 const objectData = [];
@@ -13,3 +15,4 @@ for(let i =0; i< data.length; i++){
         review: data[i].children[1].innerText
     })
 }
+```
